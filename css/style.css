@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+:root{
+    --prymari-color: #0B0D17;
+    --Secundary-color: #979797;
+    --Small-font: 12px;
+    --Medium-cont: 14px;
+    --Large-font:16px;
+    --Bigger-font:20px;
+}

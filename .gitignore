@@ -1,5 +1,6 @@
-asset 
+
 *.prettierignore
 *.jpg
 *.web
 *.svg
+*.Identifier
