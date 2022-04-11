@@ -16,3 +16,19 @@ html{
     --Large-font:16px;
     --Bigger-font:20px;
 }
+header{
+    display: flex;
+    flex-direction: row;
+}
+header img{
+    order: 1;
+    width: 10%;
+}
+header .header__border{
+    order: 2;
+    width: 30%;
+}
+header .header__nav{
+    order: 3;
+    width: 60%;
+}
