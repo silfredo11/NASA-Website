@@ -13,7 +13,7 @@ En este proyecto trabajare en hacer una pagina web que haga alusion a lo que ser
 - Transiciones  de CSS
 - Transformaciones de CSS
 
-**Herramientas usadas**
+**Herramientas que usare**
 
 -  Visual Estudio code 
 -  Git
@@ -28,5 +28,5 @@ En este proyecto trabajare en hacer una pagina web que haga alusion a lo que ser
 
 **Tambien quiero darle las gracias a platzi debido que los conocimientos que voy a colocar en prastica fueron adquirido en un 95% en esta plataforma. Es una comunidad maravillosa**
 
-**Otros canales que me sirvieron de apoyo con documentación fuero:**
+
 
