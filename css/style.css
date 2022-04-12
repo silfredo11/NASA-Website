@@ -282,7 +282,6 @@ header .header__nav{
 .main__crew-left{
    width: 50%;
    order: 1;
-
 }
 .main__crew-right{
    width: 50%;
@@ -301,7 +300,7 @@ header .header__nav{
 .main__crew-left__container{
     width: 75%;
     height: 100%;
-    margin-top: 40px; 
+    margin-top: 60px; 
 }
 .main__crew-left__container-title{
     font-size: var(--title--font);
@@ -324,6 +323,10 @@ header .header__nav{
     margin-top: 10px;
     word-spacing: 5px;
     letter-spacing: 8px;
+}
+ .specialist{
+    letter-spacing: 0px;
+    word-spacing: 0px;
 }
 .main__crew-left__container-info p:nth-child(3){
     font-size: 1.6rem;
