@@ -10,7 +10,9 @@ html{
 }
 :root{
     --prymari-color: #0B0D17;
+    --Nav-color: rgb(23, 31, 36, 0.4);
     --Secundary-color: #979797;
+    --Font-color: #FFFFFF;
     --Small-font: 12px;
     --Medium-cont: 14px;
     --Large-font:16px;
@@ -36,13 +38,13 @@ p{
     overflow: hidden;
 }
 .header__nav-border{
-    width: 60%;
+    width: 50%;
     position: absolute;
     top: calc(50%);
     height: 1px;
     background-color: var(--Secundary-color);
     z-index: 2;
-    left: calc(-50%);
+    left: calc(-45%);
 }
 header{
     display: flex;
@@ -59,11 +61,10 @@ header .header__nav{
     position: relative;
     order: 3;
     width: 60%;
-    background-color: var(--prymari-color);
-    opacity: 0.5;
+    background: var(--Nav-color);
     display: grid;
     place-items: center;
-    z-index: 2;
+    z-index: 1;
 }
 .header__nav-items{
     width: 80%;
@@ -77,15 +78,15 @@ header .header__nav{
     margin-left: 50px ;
 }
 .header__nav-items li a{
-    color: white;
+    color: var(--Font-color);
     font-size: var(--Large-font);
 }
 .header__nav-items li a b{
     margin-right: 5px;
-    color: white;
+    color: var(--Font-color);
 }
 
-/* Main for the home */
+/* Main for the home page */
 
 .main__home {
     width: 100%;
@@ -107,19 +108,19 @@ header .header__nav{
 }
 .main__home-content__left p:first-child{
     font-size: large;
-    color: var(--Secundary-color);
+    color: var(--Font-color);
     margin-bottom: 30px;
 }
 .main__home-content__left p:nth-child(2){
     font-size: 9rem;
     font-weight: 300;
-    color: var(--Secundary-color); 
+    color: var(--Font-color); 
     margin-bottom: 30px;
 }
 .main__home-content__left p:nth-child(3){
     font-size: var(--Medium-cont) ;
     font-weight: 300;
-    color: var(--Secundary-color);
+    color: var(--Font-color);
     line-height: 25px;
 }
 .main__home-content__right{
@@ -131,14 +132,14 @@ header .header__nav{
 .main__home-content__right div{
     width: 200px;
     height: 200px;
-    background-color: white;
+    background-color: var(--Font-color);
     border-radius: 50%;
     display: grid;
     place-content: center;
 }
 .main__home-content__right div p {
 
-    color: var(--Secundary-color);
+    color: var(--prymari-color);
     font-size: var(--Bigger-font);
     font-weight: 300;
 }
