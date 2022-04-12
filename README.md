@@ -26,7 +26,7 @@ En este proyecto trabajare en hacer una pagina web que haga alusion a lo que ser
 
 ###Platzi
 
-**Tambien quiero darle las gracias a platzi debido que los conocimientos que voy a colocar en prastica fueron adquirido en un 95% en esta plataforma. Es una comunidad maravillosa**
+**Tambien quiero darle las gracias a platzi debido que los conocimientos que voy a colocar en prastica fueron adquirido en un 95% en esta plataforma. ¡GRACIAS PLATZI!**
 
 
 

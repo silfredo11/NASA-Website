@@ -13,6 +13,7 @@ html{
     --Nav-color: rgb(23, 31, 36, 0.4);
     --Secundary-color: #979797;
     --Font-color: #FFFFFF;
+    --DESTINATION-color: #D0D6F9;
     --Small-font: 12px;
     --Medium-cont: 14px;
     --Large-font:16px;
@@ -203,7 +204,6 @@ header .header__nav{
 .destination__right-container{
     width: 70%;
     margin: 70px 0 0 70px;
-    /* border: 2px solid green; */
 }
 .destination__right-container__nav{
     display: flex;
@@ -224,14 +224,14 @@ header .header__nav{
 }
 .destination__right-container__description{
     margin: 15px 0 0 10px;
-    color: #D0D6F9;
+    color: var(--DESTINATION-color);
     font-size: 1.8rem;
     line-height: 30px;
 }
 .destination__right-container__data{
     width: 100%;
     margin: 50px 0 0 10px;
-    border-top: 1px solid #D0D6F9;
+    border-top: 1px solid var(--DESTINATION-color);
     padding-top: 20px;
     display: flex;
 }
@@ -239,7 +239,7 @@ header .header__nav{
     margin-right: 80px;
 }
 .destination__right-container__data .left p:first-child{
-    color: #D0D6F9;
+    color: var(--DESTINATION-color);
     font-size: var(--Small-font);
     margin-bottom: 5px;
 }
@@ -249,7 +249,7 @@ header .header__nav{
     font-weight: 500;
 }
 .destination__right-container__data .right p:first-child{
-    color: #D0D6F9;
+    color: var(--DESTINATION-color);
     font-size: var(--Small-font);
     margin-bottom: 5px;
 }
