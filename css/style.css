@@ -258,3 +258,80 @@ header .header__nav{
     font-size: var(--title--font);
     font-weight: 500;
 }
+
+/* Here start the styles for crews */
+
+.body__crew{
+    background-image: url("/asset/crew/background-crew-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.main__crew{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr;
+    width: 100%;
+}
+.main__crew-left{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+
+}
+.main__crew-right{
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+.main__crew-right img{
+    margin-top: 0px;
+}
+
+.main__crew-left{
+    display: grid;
+    justify-items: end;
+}
+.main__crew-left__container{
+    width: 75%;
+    height: 100%;
+    margin-top: 40px; 
+}
+.main__crew-left__container-title{
+    font-size: var(--title--font);
+    color: var(--Font-color);
+}
+.main__crew-left__container-title b{
+    color: var(--Secundary-color);
+}
+.main__crew-left__container-info{
+    margin-top: 80px;
+}
+.main__crew-left__container-info p:nth-child(1){
+    font-size: 2.8rem;
+    color: var(--Font-color);
+    opacity: 0.8;
+}
+.main__crew-left__container-info p:nth-child(2){
+    font-size: 5rem;
+    color: var(--Font-color);
+    margin-top: 10px;
+    word-spacing: 5px;
+    letter-spacing: 8px;
+}
+.main__crew-left__container-info p:nth-child(3){
+    font-size: 1.6rem;
+    color: var(--DESTINATION-color);
+    margin-top: 20px;
+    line-height: 30px;
+}
+.main__crew-left__container-leyer{
+    display: flex;
+    margin-top: 50px;
+}
+.main__crew-left__container-leyer div{
+    width: 10px;
+    height: 10px;
+    background-color: var(--Secundary-color);
+    border-radius: 50%;
+    margin-right: 10px;
+}
