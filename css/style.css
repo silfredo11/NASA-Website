@@ -408,6 +408,7 @@ header .header__nav{
     grid-row: 3 / 10;
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 .container__info-right{
     margin-left: 70px;
