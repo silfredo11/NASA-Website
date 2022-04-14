@@ -3,10 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@100;300;500;700&family=Bellefair&family=Bentham&display=swap');
 html{
     font-size: 62.5%;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Barlow Condensed', sans-serif;;
 }
 :root{
     --prymari-color: #0B0D17;
@@ -110,19 +110,20 @@ header .header__nav{
 }
 .main__home-content__left p:first-child{
     font-size: large;
-    color: var(--Font-color);
-    margin-bottom: 30px;
+    color: var(--DESTINATION-color);
+    margin-bottom: 20px;
 }
 .main__home-content__left p:nth-child(2){
     font-size: 9rem;
     font-weight: 300;
     color: var(--Font-color); 
-    margin-bottom: 30px;
+    margin-bottom: 20px;
+    font-family: 'Bellefair', serif;
 }
 .main__home-content__left p:nth-child(3){
     font-size: var(--Medium-cont) ;
     font-weight: 300;
-    color: var(--Font-color);
+    color: var(--DESTINATION-color);
     line-height: 25px;
 }
 .main__home-content__right{
@@ -130,6 +131,7 @@ header .header__nav{
     display: grid;
     align-content: center;
     justify-content: end;
+    font-family: 'Bellefair', serif;
 }
 .main__home-content__right div{
     width: 200px;
@@ -221,6 +223,7 @@ header .header__nav{
     margin-top: 30px;
     font-weight: 500;
     margin-left: 10px;
+    font-family: 'Bellefair', serif;
 }
 .destination__right-container__description{
     margin: 15px 0 0 10px;
@@ -323,6 +326,7 @@ header .header__nav{
     margin-top: 10px;
     word-spacing: 5px;
     letter-spacing: 8px;
+    font-family: 'Bentham', serif;
 }
  .specialist{
     letter-spacing: 0px;
