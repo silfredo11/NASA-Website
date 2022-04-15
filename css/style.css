@@ -340,12 +340,19 @@ header .header__nav{
     display: flex;
     margin-top: 50px;
 }
-.main__crew-left__container-leyer div{
+.main__crew-left__container-leyer a{
     width: 10px;
     height: 10px;
     background-color: var(--Secundary-color);
     border-radius: 50%;
     margin-right: 10px;
+    cursor: pointer;
+}
+.main__crew-left__container-leyer a div{
+    width: 10px;
+    height: 10px;
+    background-color: var(--Secundary-color);
+    border-radius: 50%;
 }
 /* Here start the technology page */
 
@@ -393,7 +400,7 @@ header .header__nav{
     display: flex;
 
 }
-.container__info-left div{
+.container__info-left li{
     width: 60px;
     height: 60px;
     font-size: var(--title--font);
@@ -404,6 +411,9 @@ header .header__nav{
     margin: 0 0 20px 0;
     padding: 15px;
     text-align: center;
+}
+.container__info-left li a{
+   color: var(--Font-color);
 }
 .container__img{
     grid-column: 4 / 6;
