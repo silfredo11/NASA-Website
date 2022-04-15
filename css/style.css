@@ -27,9 +27,6 @@ li{
 a{
     text-decoration: none;
 }
-p{
-    color: white;
-}
 .body__home{
     background-image: url("/asset/home/background-home-desktop.jpg");
     background-repeat: no-repeat;
@@ -51,9 +48,11 @@ p{
 header{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     padding-top: 40px;
     height: 15vh;
+}
+header picture{
+    width: 40%;
 }
 header img{
     margin-left: 50px;
@@ -61,7 +60,6 @@ header img{
 
 header .header__nav{
     position: relative;
-    order: 3;
     width: 60%;
     background: var(--Nav-color);
     display: grid;
@@ -440,4 +438,11 @@ header .header__nav{
     color: var(--DESTINATION-color);
     margin-bottom: 30px;
     line-height: 25px;
+}
+
+@media screen and (max-width: 900px) {
+    .main__technology .container{
+        border: 2px solid blue;
+        ;
+    }
 }
