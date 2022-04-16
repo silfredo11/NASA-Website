@@ -147,7 +147,7 @@ header .header__nav{
     font-weight: 300;
 }
 
-/* Here start the Moon destination home */
+/* Here start the destination page */
 
 .body__destination{
     background-image: url("/asset/destination/background-destination-desktop.jpg");
@@ -162,8 +162,7 @@ header .header__nav{
     bottom: 0;
 }
 .main__destination{
-    width: 100%;
-    height: 100vh;
+    height: 85vh;
     justify-self: center;
     display: grid;
     

@@ -4,6 +4,7 @@
 header{
     justify-content: space-between;
     padding-top: 0;
+    height: 10vh;
 }
 .header__nav-border{
     display: none;
@@ -59,3 +60,69 @@ header img{
     font-size: 3.5rem ;
 }
 
+/* Here start the destination page */
+
+.body__destination{
+    background-image: url("/asset/destination/background-destination-tablet.jpg");
+}
+
+.main__destination{
+   display: flex;
+   flex-direction: column;
+   width: 90%;
+   margin: 0 auto;
+   height: 90vh;
+}
+.destination__left{
+  height: 30%;
+}
+.destination__right{
+   height: 70%;
+}
+.destination__left-title{
+    align-self: start;
+    font-size: 1.8rem;
+    margin-top: 30px;
+}
+.destination__left img{
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+    margin-right: 0px;
+    align-self: auto;
+}
+.destination__right{
+    align-items: center;
+    margin-top: 70px;
+}
+.destination__right-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    margin: 70px 0 0 0;
+}
+.destination__right-container__nav li{
+    margin: 0 0 0 10px;
+}
+.destination__right-container__title{
+    margin: 50px 0 0 0;
+}
+.destination__right-container__description{
+   text-align: center;
+   margin-left: 0;
+}
+.destination__right-container__description br{
+    display: none;
+}
+.destination__right-container__data{
+    margin: 70px 0 0 0;
+    border-top: 1px solid var(--DESTINATION-color);
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+}
+.destination__right-container__data .left{
+    margin-right: 50px;
+    text-align: center;
+}
