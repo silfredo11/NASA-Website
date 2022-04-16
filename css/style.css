@@ -36,6 +36,12 @@ a{
     height: 100vh;
     overflow: hidden;
 }
+header{
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    height: 15vh;
+}
 .header__nav-border{
     width: 50%;
     position: absolute;
@@ -45,12 +51,7 @@ a{
     z-index: 2;
     left: calc(-45%);
 }
-header{
-    display: flex;
-    flex-direction: row;
-    padding-top: 40px;
-    height: 15vh;
-}
+
 header picture{
     width: 40%;
 }
@@ -67,16 +68,14 @@ header .header__nav{
     z-index: 1;
 }
 .header__nav-items{
-    width: 80%;
+    width: 100%;
     display: flex;
-    align-content: center;
-    justify-self: start;
-    margin-left: 50px;
+    justify-content: space-evenly;
 }
 
-.header__nav-items li{
+/* .header__nav-items li{
     margin-left: 50px ;
-}
+} */
 .header__nav-items li a{
     color: var(--Font-color);
     font-size: var(--Large-font);

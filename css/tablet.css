@@ -2,12 +2,8 @@
     background-image: url("/asset/home/background-home-tablet.jpg");
 }
 header{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding-top: 0px;
-    height: 15vh;
+    justify-content: space-between;
+    padding-top: 0;
 }
 .header__nav-border{
     display: none;
@@ -18,19 +14,13 @@ header picture{
 header img{
     width: 50px;
     height: 50px;
+    margin-top: 40px;
 }
 .header__nav{
     width: 70%;
-    height: 80px;
+    height: 120px;
     background-color:#979797;
     display: none;
-}
-.header__nav-items {
-    display: flex;
-    justify-content: space-between;
-}
-.header__nav-items li{
-    margin-left: 0;
 }
 .header__nav-items li a b{
     display: none;

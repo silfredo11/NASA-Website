@@ -3,12 +3,27 @@
 }
 header{
     width: 100%;
+    align-items: center;
 }
-.header__nav{
-    display: flex;
+header .header__nav{
+    width: 50px;
+    height: 50px;
+    margin: 50px;
+    background-image: url("/asset/shared/icon-hamburger.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header picture{
+    width: 70px;
+    height: 70px;
+    margin: 50px;
 }
 header img{
-    margin-left: 0px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
 }
 .header__nav-items{
     display: none;
