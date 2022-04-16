@@ -26,16 +26,36 @@ header img{
     display: none;
 }
 
-/* main */
+/* Main for the home page */
 
 .main__home-content{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: start;
+}
+.main__home-content__left{
+    align-items: center;
+    margin: 70px  0 100px 0;
+}
+.main__home-content__left p:nth-child(1){
+    font-size: 2rem; 
+}
+.main__home-content__left p:nth-child(2){
+    font-size: 15rem; 
+}
+.main__home-content__left p:nth-child(3){
+    font-size: 1.6rem; 
+    text-align: center;
+    line-height: 30px;
 }
 .main__home-content__right{
-    width: 50%;
- }
-.main__home-content__right{
-   width: 50%;
+    justify-content: center;
 }
+.main__home-content__right  div{
+    width: 250px;
+    height: 250px;
+}
+.main__home-content__right  div p{
+    font-size: 3.5rem ;
+}
+
