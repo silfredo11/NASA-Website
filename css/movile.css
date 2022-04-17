@@ -102,3 +102,59 @@ header img{
     text-align: center;
     margin-top: 20px;
 }
+/* Here start the styles for crews */
+
+.body__crew{
+    background-image: url("/asset/crew/background-crew-mobile.jpg");
+}
+.main__crew-left{
+    order: 2;
+    height: 60%;
+    position: relative;
+}
+.main__crew-right{
+    order: 1;
+    border-bottom: 1px solid #979797;
+    height: 40%;
+    position: relative;
+    margin-top: 70px;
+}
+.main__crew-left__container{
+    width: 100%;
+    margin-top: 0;
+}
+.main__crew-left__container-info{
+    margin-top: 0px;
+}
+.main__crew-left__container-title{
+   display: none;
+}
+.main__crew-left__container-info p:nth-child(1){
+    font-size: 2rem;
+    margin-top: 60px;
+    font-family: 'Bellefair', serif;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+}
+.main__crew-left__container-info p:nth-child(2){
+    font-size: 3rem;
+    font-family: 'Bentham', serif;
+}
+.main__crew-left__container-info p:nth-child(3){
+   line-height: 22px;
+   margin-top: 10px;
+}
+.main__crew-left__container-info p:nth-child(3) br{
+    display: none;
+}
+
+.main__crew-left__container-leyer{
+    display: flex;
+    position: absolute;
+    margin-top: 0;
+    top: 30px;
+    width: 100%;
+}
+.main_crew-specialist{
+    height: 35%;
+}
