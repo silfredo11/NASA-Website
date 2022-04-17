@@ -158,3 +158,8 @@ header img{
 .main_crew-specialist{
     height: 35%;
 }
+/* Here start the technology page */
+.body__technology{
+    background-image: url("/asset/technology/background-technology-mobile.jpg");
+
+}
