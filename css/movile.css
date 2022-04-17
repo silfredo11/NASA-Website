@@ -58,3 +58,47 @@ header img{
 .main__home-content__right  div p{
     font-size: 2rem ;
 }
+/* Here start the destination page */
+.destination__left{
+    justify-content: center;
+    height: 40%;
+}
+.destination__right{
+    height: 60%;
+}
+.destination__left-title{
+    align-self: center;
+}
+.destination__left img{
+    width: 150px;
+    height: 150px;
+    margin-top: 30px;
+}
+.destination__right{
+    margin-top: 0px;
+}
+.destination__right-container{
+    width: 100%;
+    margin: 0;
+}
+.destination__right-container__title{
+   margin-top: 5px;
+   font-size: 5.6rem;
+}
+.destination__right-container__description{
+    font-size: 1.5rem;
+    line-height: 20px;
+    margin-top: 0;
+}
+.destination__right-container__data{
+ margin-top: 15px;
+ padding-top: 10px;
+ flex-direction: column;
+}
+.destination__right-container__data .left{
+    margin-right: 0;
+}
+.destination__right-container__data .right{
+    text-align: center;
+    margin-top: 20px;
+}
