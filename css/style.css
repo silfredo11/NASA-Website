@@ -28,7 +28,7 @@ a{
     text-decoration: none;
 }
 .body__home{
-    background-image: url("/asset/home/background-home-desktop.jpg");
+    background-image: url("https://i.postimg.cc/7YgZWhkK/background-home-desktop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -168,7 +168,7 @@ header .header__nav{
 /* Here start the destination page */
 
 .body__destination{
-    background-image: url("/asset/destination/background-destination-desktop.jpg");
+    background-image: url("https://i.postimg.cc/NfrdqhJJ/background-destination-desktop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -286,7 +286,7 @@ header .header__nav{
 /* Here start the styles for crews */
 
 .body__crew{
-    background-image: url("/asset/crew/background-crew-desktop.jpg");
+    background-image: url("https://i.postimg.cc/85DHLjNx/background-crew-desktop.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -385,7 +385,7 @@ header .header__nav{
 /* Here start the technology page */
 
 .body__technology{
-    background-image: url("/asset/technology/background-technology-desktop.jpg");
+    background-image: url("https://i.postimg.cc/Jhwn6XyY/background-technology-desktop.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

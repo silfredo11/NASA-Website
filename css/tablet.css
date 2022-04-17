@@ -1,5 +1,5 @@
 .body__home{
-    background-image: url("/asset/home/background-home-tablet.jpg");
+    background-image: url("https://i.postimg.cc/wvhrdCjY/background-home-tablet.jpg");
 }
 header{
     justify-content: space-between;
@@ -63,7 +63,7 @@ header img{
 /* Here start the destination page */
 
 .body__destination{
-    background-image: url("/asset/destination/background-destination-tablet.jpg");
+    background-image: url("https://i.postimg.cc/76WndXgr/background-destination-tablet.jpg");
 }
 
 .main__destination{
@@ -163,7 +163,7 @@ header img{
 }
 /* Here start the technology page */
 .body__technology{
-    background-image: url("/asset/technology/background-technology-tablet.jpg");
+    background-image: url("https://i.postimg.cc/tRrg0wZx/background-technology-tablet.jpg");
 }
 .main__technology{
     height: 90vh;
