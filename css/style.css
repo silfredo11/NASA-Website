@@ -58,6 +58,8 @@ header picture{
 }
 header img{
     margin-left: 50px;
+    cursor: pointer;
+
 }
 
 header .header__nav{
@@ -73,10 +75,17 @@ header .header__nav{
     display: flex;
     justify-content: space-evenly;
 }
+.header__nav-items li a:hover {
+    border-bottom: 1px solid var(--DESTINATION-color);
 
-/* .header__nav-items li{
-    margin-left: 50px ;
-} */
+}
+.header__nav-items li {
+    transition: transform 500ms;
+}
+.header__nav-items li:hover {
+    transform: scale(1.3);
+    transition: transform 500ms;
+}
 .header__nav-items li a{
     color: var(--Font-color);
     font-size: var(--Large-font);
@@ -139,12 +148,21 @@ header .header__nav{
     display: grid;
     place-content: center;
     font-family:  'Bellefair', serif; ;
+    transition: transform 500ms;
+}
+.main__home-content__right div:hover{
+    transform: scale(1.5);
+    transition: transform 500ms;
+}
+.main__home-content__right div:hover a{
+    color: var(--DESTINATION-color);
 }
 .main__home-content__right div p {
 
     color: var(--prymari-color);
     font-size: var(--Bigger-font);
     font-weight: 300;
+    cursor: pointer;
 }
 
 /* Here start the destination page */
@@ -210,6 +228,11 @@ header .header__nav{
 }
 .destination__right-container__nav li{
     margin-right: 30px;
+    transition: transform 500ms ease-in-out;
+}
+.destination__right-container__nav li:hover{
+    transform: scale(1.5);
+    transition: transform 500ms ease-in-out;
 }
 .destination__right-container__nav li a{
     color: var(--Font-color);
@@ -338,6 +361,7 @@ header .header__nav{
     display: flex;
     margin-top: 50px;
 }
+
 .main__crew-left__container-leyer a{
     width: 10px;
     height: 10px;
@@ -345,6 +369,12 @@ header .header__nav{
     border-radius: 50%;
     margin-right: 10px;
     cursor: pointer;
+    transition: transform 500ms ease-in-out;
+}
+.main__crew-left__container-leyer a:hover{
+    transform: scale(2);
+    transition: transform 500ms ease-in-out;
+    background-color: white;
 }
 .main__crew-left__container-leyer a div{
     width: 10px;
@@ -407,7 +437,16 @@ header .header__nav{
     margin: 0 0 20px 0;
     padding: 15px;
     text-align: center;
+    transition: transform 500ms ease-in-out;
 }
+.container__info-left li:hover{
+  transform: scale(1.3);
+  transition: transform 500ms ease-in-out;
+  background-color: white;
+}
+.container__info-left li:hover a{
+    color: #0B0D17;
+  }
 .container__info-left li a{
    color: var(--Font-color);
 }
@@ -437,3 +476,7 @@ header .header__nav{
     margin-bottom: 30px;
     line-height: 25px;
 }
+
+
+
+
